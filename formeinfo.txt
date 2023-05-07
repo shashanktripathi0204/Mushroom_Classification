@@ -1,0 +1,19 @@
+Readme file is used for writting any info example how we can 
+download the project and pacakage
+
+requirements.txt -- the installation will happen in the venv_mush
+
+setup.py -- if i want ot conver the project into a pacakge for that it is required
+
+src -- inside this folder the entire life cycle of the machine learning project should run 
+__init__.py -- this will help me in making src a pacakage, it will be used for importing the pacakage here and there
+
+utils.py -- any general/common functionality that we create will be stored here
+
+src/components -- contains the entire life cycle of the project -- all the training and prediction pipeline
+contains data cleaning→data ingestion→ data transformation→ model training→ model evaluation→ Deployment
+
+
+src/components/data_ingestion.py -- cleaning and ingestion
+
+src/components/model_trainer.py → here we will do evaluation also
